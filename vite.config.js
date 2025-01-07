@@ -9,9 +9,5 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom'],
-    },
-  },
+  build: { rollupOptions: { external: ['react', 'react-router-dom'], output: { globals: { react: 'React', 'react-router-dom': 'ReactRouterDOM' } } } }
 });
