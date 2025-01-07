@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Inicio from './Pages/Inicio/Index.jsx'
+import Inicio from './Pages/Inicio/Index.jsx';
 import Favoritos from './Pages/Favoritos/index.jsx';
 import Player from './Pages/Player/index.jsx';
 import NaoEncontrada from './Pages/NaoEncontrada/index.jsx';
